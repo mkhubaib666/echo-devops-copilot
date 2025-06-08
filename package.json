@@ -1,0 +1,23 @@
+{
+  "name": "echo-devops-copilot",
+  "version": "1.0.0",
+  "description": "An AI-powered DevOps co-pilot for analyzing IaC in pull requests.",
+  "author": "Your Name",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "probot run ./src/index.js",
+    "dev": "nodemon --exec 'npm start'",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "diff": "^5.2.0",
+    "dotenv": "^16.4.5",
+    "probot": "^13.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  }
+}
