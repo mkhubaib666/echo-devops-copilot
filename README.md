@@ -2,9 +2,6 @@
 
 Echo is a GitHub App that acts as an intelligent co-pilot for your DevOps workflows. It automatically analyzes Infrastructure as Code (IaC) within your pull requests to provide critical insights *before* you merge.
 
-
-*(You should create a GIF showcasing the app in action and replace this link)*
-
 ---
 
 ### The Problem: The Ephemeral Environment Paradox
@@ -30,7 +27,7 @@ Echo tackles these problems by commenting directly on your pull requests with an
 
 *   Go to **Settings** > **Developer settings** > **GitHub Apps** > **New GitHub App**.
 *   **GitHub App name:** `echo-copilot-[your-username]` (e.g., `echo-copilot-octocat`)
-*   **Homepage URL:** `https://github.com/your-username/echo-devops-copilot`
+*   **Homepage URL:** `https://github.com/mkhubaib666/echo-devops-copilot`
 *   **Webhook:**
     *   **Active:** Yes
     *   **Webhook URL:** Use a service like [Smee.io](https://smee.io/) to get a temporary URL for local development. For production, this will be your server's URL.
@@ -45,7 +42,7 @@ Echo tackles these problems by commenting directly on your pull requests with an
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/echo-devops-copilot.git
+git clone https://github.com/mkhubaib666/echo-devops-copilot.git
 cd echo-devops-copilot
 
 # Install dependencies
